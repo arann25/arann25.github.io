@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0px;
+  background-color:aliceblue;
+  display: block;
+}
+#header {
+	width: 100%;
+	margin: 0 0 -8px;
+	position: fixed;
+	z-index: 200;
+	
+}
+
+#wrapper{
+	display: block;
+}
+
+h1{
+	font-size: 1.375em;
+	line-height: 1;
+	margin-bottom: 16px;
+	vertical-align: top;
+}
+
+.header-container {
+	width: 100%;
+	margin: 0px;
+	padding: 3px;
+	background: #333;
+	display: block;
+	position: fixed;
+	z-index: 1000;
+	top: 0px;
+}
+.cf::before, .cf::after{
+	content:" ";
+	display: table;
+}
+.cf::after{
+	clear:both;
+}
+#logo {
+	float: left;
+	margin: 0px 10px 12px 10px;
+	padding: 5px;
+	display: block;
+	vertical-align: top;
+	position: absolute;
+}
+a.home {
+	margin:0px 12px;
+}
+
+.big-title {
+	margin-right: -170;
+	margin-left: 10;
+	margin-bottom: 0;
+	font-weight: 700;
+	display: inline-block;
+	font-size:25px;
+	background-color: #333;
+	color: white;
+	position: relative;
+}
+.nav{
+	margin: 16px 0px 0px 0px;
+	float: right;
+	display:inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+
+ul.navbar{
+	list-style-type: none;
+	display:block;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	background-color: #333;
+	text-align: right;
+	
+}
+
+li.navbar{
+	display:inline-block;
+	color: white;
+	font-size: px;
+	padding: 10px;
+	margin: 0px;
+}
+
+#content{
+	margin:0;
+	top: 80px;
+}
+
+.cover-video{
+	position: relative;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background-size: cover;
+	z-index: 0;
+}
+
+.cover{
+	position: relative;
+	width:100%;
+	height: 100vh;
+	background-color: #9598A4;
+	display: inline-block;
+	z-index: 10;
+	/*background-image: url("Thumbnail4.jpg");*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: 50% 50%
+}
+
+
+.infographics{
+	position: relative;
+	width:100%;
+	height: 50%;
+	background-color: #83898F;
+}
+
+#title{
+	position:absolute;
+	top: 75%;
+	left: 30px;
+	color: White;
+	font-family: "微軟正黑體";
+}
+
+h1.cover-title{
+	font-size: 4rem;
+	z-index: 0;
+}
+
+
+.daily-log{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: grey;
+}
+
+.intro-infographics{
+	text-align: center;
+	font-family:"微軟正黑體";
+}
+
+.info-container{
+	display: flex;
+	align-items: center
+}
+
+.crime1, .crime2, .crime3{
+	display:block;
+	width: 30%;
+	height:40vh;
+	text-align: center;
+	margin: 0px 5px;
+	border-style:solid;
+	border-radius: 12%
+}
+
+#timeline-embed{
+}
+
+.map{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-color: cadetblue
+}
+
+.summary{
+	width: 100%;
+	height: 40vh;
+}
+
+.articles1{
+	width:100%;
+	height: 100vh;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	background-color:cornsilk; 
+}
+
+.interview{
+	display: flex;
+	margin: 20px 0px ;
+	max-height: 27vh;
+	width:100%;
+}
+
+.intro-interview{
+	width:100%;
+	height:27vh;
+	padding: 0px 10px;
+}
+
+#intro-interview1{
+	text-align:left;
+	float:left;
+}
+
+#intro-interview2{
+	text-align: right;
+	float:right;
+}
+
+#interview3{
+	text-align:left;
+	float:left;
+}
+
+.inteview-video{
+	position: relative;
+	width:auto;
+	height: auto;
+	max-height: 30vh;
+	margin:5px;
+}
+
+p.article-intro{
+	/*max-width:600px;*/
+	
+}
+
+button{
+	background-color: transparent;
+	border-style: solid;
+	border-color: black;
+	color:black;
+	transition-property: all;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+	transition-delay: initial;
+}
+
+.article-button1{
+	position: absolute;
+	text-align: center;
+	left: 20vw;
+	height: 50px;
+	width: 10%
+	
+}
+
+.article-button2{
+	position: absolute;
+	text-align: center;
+	right: 20vw;
+	height: 50px;
+	width: 10%
+	
+}
+
+.article-button3{
+	position: absolute;
+	text-align: center;
+	left: 20vw;
+	height: 50px;
+	width: 10%
+	
+}
