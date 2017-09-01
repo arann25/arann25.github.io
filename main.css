@@ -269,3 +269,27 @@ button{
 	width: 10%
 	
 }
+
+
+
+
+#info1{
+    background-image: url(info_1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#info2{
+    background-image: url(info_2.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#info3{
+    background-image: url(info_3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
