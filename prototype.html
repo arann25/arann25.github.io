@@ -3,18 +3,17 @@
 <head>
 <meta charset="utf-8">
 <title>紥鐵十年｜惟工新聞</title>
-    
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+<link rel="stylesheet" type="text/CSS" href="jquery.fullPage.css">
 <link rel="stylesheet" href = "main.css">
 </head>
 
 <body>
-  <div id="wrapper">
-      
+
   <!--	<div id="header">
   		<div class="header-container cf">
   			::before
@@ -25,7 +24,7 @@
   				<div class="big-title">
   					<b>紥鐵十年</b>
   				</div>
-  				
+
   			</h1>
   			<div id="nav" style>
   				<ul class="navbar">
@@ -40,8 +39,8 @@
   			::after
   		</div>
   	</div>  -->
-      
-    
+
+
     <!--navbar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
@@ -69,14 +68,14 @@
         </div><!--end container-fluid-->
     </nav>
     <!--end navbar-->
-      
-      
-      <div id="content" class="cf">
-          
-		<div class="cover">
+
+    <div id="fullpage">
+      <!--<div id="content" class="cf">-->
+
+		<div class="cover section">
 		 <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg">
 			<source src="books.mp4" type="video/mp4">
-		  </video> 
+		  </video>
 			<div id="title">
 				<h1 class="cover-title">
 					紥鐵工潮十周年
@@ -85,16 +84,16 @@
 				<p class="cover-title">惟工新聞｜2017</p>
 			</div>
 		</div>
-          
-        
-		<div class="infographics">
+
+
+		<div class="infographics section fp-auto-height">
 			::before
-        
+
 			<div class="intro-infographics">
 				<h1>工潮前慘況</h1>
 				<p>從一開始，無人預料過工潮竟然維持了40天。工潮震撼香港社會，學生、市民、打工仔的支持紛紛湧至。如果工人沒有走出來，我們可不知道在這個黑暗國度裡李氏集團的種種惡行。</p>
 			</div>
-           <!-- 
+           <!--
 			<div class="info-container">
 				<div class="crime1">
 					<h1>工時超長</h1>
@@ -112,8 +111,6 @@
 					<img src="info3.png" width="60%">
 				</div>
 			</div>  -->
-			::after 
-            
             <div class="row">
                 <div class="col-sm-4">
                     <div class="panel panel-default" id="info1">
@@ -141,39 +138,39 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
 		</div>
-        
-		<div class="daily-log" id="日誌">
+
+		<div class="daily-log section" id="日誌">
 		::before
+      <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
 			<!--BEGIN TIMELINEJS EMBED-->
-			<div id="timeline-embed" class="tl-timeline tl-layout-landscape" classname="tl-tineline-embed tl-timeline-full-embed" style=" width: 100%;height: 100%">
-			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2" width="100%" height="100%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
+			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2" width="90%" height="90%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
 			<!--END TIMELINEJS EMBED-->
-			</div>
 		::after
 		</div>
-      
-		<div class="map" id="地圖">
+
+		<div class="map section" id="地圖">
 		::before
 			<!--BEGIN STORYMAPJS EMBED-->
-			<iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="100%" height="95%"></iframe>
+			<iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="90%" height="90%"></iframe>
 			<!--END STORYMAPJS EMBED-->
 		::after
 		</div>
-          
-		<div class="summary">
+
+		<div class="summary section fp-auto-height" style="height:974px;">
 			::before
-            <h1>總結工潮尾聲</h1>
+      <div class="summary-paragraph">
+      <h1>總結工潮尾聲</h1>
 			<p>整整一個月，惟工新聞依靠微弱的力量，把碼頭罷工一周年專題做完了。有編輯自嘲，以「工餘」水準做到這個樣子，算是超額完成。（很多部份是急急趕工，如有任何錯誤，煩請指教。）<br>然而，惟工編輯就算再辛苦，也沒可能（也沒能力）如碼頭工人那般每天連續工作24小時。回看一年前，碼頭工人今天的待遇因為罷工而改善了多少？另一方面，香港人有沒有因為工人抗爭而進步了半分？</p>
-			::after
+    </div>
 		</div>
-          
-          
-		<section class="articles1">
+
+
+		<section class="articles1 section">
 			<h1>訪問：工潮體驗</h1>
 			<p>整整一個月，惟工新聞依靠微弱的力量，把碼頭罷工一周年專題做完了。有編輯自嘲，以「工餘」水準做到這個樣子，算是超額完成。（很多部份是急急趕工，如有任何錯誤，煩請指教。）</p>
-            
+
 			<div id="interview1" class="interview">
 				<div id="intro-interview1" class="intro-interview">
 				<h1>阿 Man</h1>
@@ -184,7 +181,7 @@
 					<source src="books.mp4">
 				</video>
 			</div>
-            
+
 			<div id="interview2" class="interview">
 				<video class="inteview-video" controls>
 					<source src="books.mp4">
@@ -195,7 +192,7 @@
 					<button type="button" class="article-button2">閱讀文章</button>
 				</div>
 			</div>
-            
+
 			<div id="interview3" class="interview">
 				<div id="intro-interview3" class="intro-interview">
 					<h1>河馬</h1>
@@ -220,6 +217,11 @@
 
 		</div>
       </div>
-  </div>
+  <script type="text/javascript" src="jquery.fullPage.js"></script>
+  <script type="text/javascript">
+    $(Document).ready(function() {
+      $('#fullpage').fullpage();
+    });
+  </script>
 </body>
 </html>
