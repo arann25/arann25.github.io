@@ -73,20 +73,25 @@
       <!--<div id="content" class="cf">-->
 
 		<div class="cover section">
-		 <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg">
+      <div class="title">
+        <h1 class="cover-title">
+          紥鐵工潮十周年
+        </h1>
+        <h2 class="cover-title">從日薪加十元到升兩倍</h2>
+        <p class="cover-title">惟工新聞｜2017</p>
+      </div>
+		 <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg" onclick="this.paused?this.play():this.pause();">
 			<source src="books.mp4" type="video/mp4">
 		  </video>
-			<div id="title">
-				<h1 class="cover-title">
-					紥鐵工潮十周年
-				</h1>
-				<h2 class="cover-title">從日薪加十元到升兩倍</h2>
-				<p class="cover-title">惟工新聞｜2017</p>
-			</div>
+      <script>
+      $('.cover-video').parent().click(function () {
+          $(".title").toggle("slow");
+      });
+      </script>
 		</div>
 
 
-		<div class="infographics section fp-auto-height">
+		<div class="infographics section">
 			::before
 
 			<div class="intro-infographics">
@@ -142,23 +147,19 @@
 		</div>
 
 		<div class="daily-log section" id="日誌">
-		::before
       <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
 			<!--BEGIN TIMELINEJS EMBED-->
-			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2" width="90%" height="90%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
+			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2"width="60%" height="95%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0" style="float: right;"></iframe>
 			<!--END TIMELINEJS EMBED-->
-		::after
 		</div>
 
 		<div class="map section" id="地圖">
-		::before
 			<!--BEGIN STORYMAPJS EMBED-->
 			<iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="90%" height="90%"></iframe>
 			<!--END STORYMAPJS EMBED-->
-		::after
 		</div>
 
-		<div class="summary section fp-auto-height" style="height:974px;">
+		<div class="summary section" style="height:974px;">
 			::before
       <div class="summary-paragraph">
       <h1>總結工潮尾聲</h1>
