@@ -134,12 +134,13 @@ li.navbar{
 	background-color: #83898F;
 }
 
-#title{
+.title{
 	position:absolute;
 	top: 15%;
 	left: 30px;
 	color: White;
 	font-family: "微軟正黑體";
+  z-index: 10000
 }
 
 h1.cover-title{
@@ -247,6 +248,7 @@ p.article-intro{
 	/*max-width:600px;*/
 
 }
+
 
 button{
 	background-color: transparent;

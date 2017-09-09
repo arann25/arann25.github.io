@@ -88,19 +88,25 @@
     
     
     <div id="fullpage">
-        <!--<div id="content" class="cf">-->
-        
-        <div class="cover section">
-            <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg">
-                <source src="books.mp4" type="video/mp4">
-            </video>
-            <div id="title">
-                <h1 class="cover-title">
-                    紥鐵工潮十周年
-				</h1>
-                <h2 class="cover-title">從日薪加十元到升兩倍</h2>
-				<p class="cover-title">惟工新聞｜2017</p>
-			</div>
+
+      <!--<div id="content" class="cf">-->
+
+		<div class="cover section">
+      <div class="title">
+        <h1 class="cover-title">
+          紥鐵工潮十周年
+        </h1>
+        <h2 class="cover-title">從日薪加十元到升兩倍</h2>
+        <p class="cover-title">惟工新聞｜2017</p>
+      </div>
+		 <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg" onclick="this.paused?this.play():this.pause();">
+			<source src="books.mp4" type="video/mp4">
+		  </video>
+      <script>
+      $('.cover-video').parent().click(function () {
+          $(".title").toggle("slow");
+      });
+      </script>
 		</div>
         
 
@@ -225,10 +231,10 @@
 
         <div class="map section" id="地圖">
 		::before
+
 			<!--BEGIN STORYMAPJS EMBED-->
             <iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="90%" height="90%"></iframe>
 			<!--END STORYMAPJS EMBED-->
-		::after
 		</div>
 
         <div class="summary section" style="height:974px;">
@@ -443,6 +449,7 @@
 
         </section>
         <div id ="footer">
+
 		</div>
         
         
