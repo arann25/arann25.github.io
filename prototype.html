@@ -5,11 +5,25 @@
 <title>紥鐵十年｜惟工新聞</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--bootstrap ver 3.3.7-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+
+<!---->
+<script src="slider1.js"></script>
+<link rel="stylesheet" href = "slider1.css">
+<script src="slider2.js"></script>
+<link rel="stylesheet" href = "slider2.css">
+    
 <link rel="stylesheet" type="text/CSS" href="jquery.fullPage.css">
 <link rel="stylesheet" href = "main.css">
+
 </head>
 
 <body>
@@ -39,9 +53,9 @@
   			::after
   		</div>
   	</div>  -->
-
-
-    <!--navbar-->
+    
+    
+    <!--navigationBar-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-hearder">
@@ -51,12 +65,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="main-logo.png" height="35" alt="logo"></a>
+                <a class="navbar-brand" href="#"><img src="main-logo.png" height="25" alt="logo"></a>
             </div><!--end navbar-header-->
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">前言<span class="sr-only">(current)</span></a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">前言<span class="sr-only">(current)    </span></a></li>
                     <li><a href="#工藝">工藝</a></li>
                     <li><a href="#日誌">日誌</a></li>
                     <li><a href="#地圖">地圖</a></li>
@@ -67,9 +81,14 @@
             </div><!--collapse navbar-collapse-->
         </div><!--end container-fluid-->
     </nav>
-    <!--end navbar-->
 
+    
+    
+    
+    
+    
     <div id="fullpage">
+
       <!--<div id="content" class="cf">-->
 
 		<div class="cover section">
@@ -89,15 +108,13 @@
       });
       </script>
 		</div>
+        
 
-
-		<div class="infographics section">
-			::before
-
-			<div class="intro-infographics">
-				<h1>工潮前慘況</h1>
-				<p>從一開始，無人預料過工潮竟然維持了40天。工潮震撼香港社會，學生、市民、打工仔的支持紛紛湧至。如果工人沒有走出來，我們可不知道在這個黑暗國度裡李氏集團的種種惡行。</p>
-			</div>
+        <div class="infographics section">
+            <div class="intro-infographics">
+                <h1>工潮前慘況</h1>
+                <p>從一開始，無人預料過工潮竟然維持了40天。工潮震撼香港社會，學生、市民、打工仔的支持紛紛湧至。如果工人沒有走出來，我們可不知道在這個黑暗國度裡李氏集團的種種惡行。</p>
+            </div>
            <!--
 			<div class="info-container">
 				<div class="crime1">
@@ -115,7 +132,7 @@
 					<p>碼頭外判工人沒有規定的食飯時間，機手更因身處高空，不能隨便停止工作，以致需要於駕駛室內解決大小二便。</p>
 					<img src="info3.png" width="60%">
 				</div>
-			</div>  -->
+			</div>-->
             <div class="row">
                 <div class="col-sm-4">
                     <div class="panel panel-default" id="info1">
@@ -144,30 +161,93 @@
                     </div>
                 </div>
             </div>
-		</div>
+        </div><!--end infographics section-->
+        
+        
+        
+        <div class="technicalSkills section" id="工藝">   
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide- to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
 
-		<div class="daily-log section" id="日誌">
-      <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
-			<!--BEGIN TIMELINEJS EMBED-->
-			<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2"width="60%" height="95%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0" style="float: right;"></iframe>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="info1.png" alt="">
+                                    <div class="carousel-caption">
+                                        <h1>Carousel in a container</h1>
+                                        <p>This is a demo for the Bootstrap Carousel    Guide.</p>
+                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="img/carousel2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="img/carousel3.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div><!--end technicalSkill section-->
+   
+        
+
+        
+        
+        
+        
+        
+
+        <div class="daily-log section" id="日誌">
+            ::before
+            <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
+            <!--BEGIN TIMELINEJS EMBED-->
+            <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1R1PoMUafT917wq67ChJL3RK2Q390nQm497jfTE7RtKI&font=Default&lang=en&initial_zoom=2" width="90%" height="90%" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
 			<!--END TIMELINEJS EMBED-->
-		</div>
+            ::after
+        </div>
 
-		<div class="map section" id="地圖">
+        <div class="map section" id="地圖">
+		::before
+
 			<!--BEGIN STORYMAPJS EMBED-->
-			<iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="90%" height="90%"></iframe>
+            <iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="90%" height="90%"></iframe>
 			<!--END STORYMAPJS EMBED-->
 		</div>
 
-		<div class="summary section" style="height:974px;">
-			::before
-      <div class="summary-paragraph">
-      <h1>總結工潮尾聲</h1>
-			<p>整整一個月，惟工新聞依靠微弱的力量，把碼頭罷工一周年專題做完了。有編輯自嘲，以「工餘」水準做到這個樣子，算是超額完成。（很多部份是急急趕工，如有任何錯誤，煩請指教。）<br>然而，惟工編輯就算再辛苦，也沒可能（也沒能力）如碼頭工人那般每天連續工作24小時。回看一年前，碼頭工人今天的待遇因為罷工而改善了多少？另一方面，香港人有沒有因為工人抗爭而進步了半分？</p>
-    </div>
-		</div>
+        <div class="summary section" style="height:974px;">
+            ::before
+            <div class="summary-paragraph">
+                <h1>總結工潮尾聲</h1>
+                <p>整整一個月，惟工新聞依靠微弱的力量，把碼頭罷工一周年專題做完了。有編輯自嘲，以「工餘」水準做到這個樣子，算是超額完成。（很多部份是急急趕工，如有任何錯誤，煩請指教。）<br>然而，惟工編輯就算再辛苦，也沒可能（也沒能力）如碼頭工人那般每天連續工作24小時。回看一年前，碼頭工人今天的待遇因為罷工而改善了多少？另一方面，香港人有沒有因為工人抗爭而進步了半分？</p>
+            </div>
+        </div>
 
-
+        
+        
+        <!--
 		<section class="articles1 section">
 			<h1>訪問：工潮體驗</h1>
 			<p>整整一個月，惟工新聞依靠微弱的力量，把碼頭罷工一周年專題做完了。有編輯自嘲，以「工餘」水準做到這個樣子，算是超額完成。（很多部份是急急趕工，如有任何錯誤，煩請指教。）</p>
@@ -205,24 +285,209 @@
 				</video>
 			</div>
 		</section>
-		<section class="articles2">
+        -->
+        
+        
+        
+        <!--<div class="interviews section" id="訪問" >-->
+        <div class="container-fluid section" id="訪問">
+            <div id="custom_carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                        <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 1</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>            
+                    </div> 
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 2</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>            
+                    </div> 
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 3</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 1</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>            
+                    </div> 
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 2</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>            
+                    </div> 
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 3</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 3</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                    <div class="item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="top col-md-6 col-xs-12">
+                                    <img src="http://lorempixel.com/416/304/nature" class="img-responsive">
+                                </div>
+                                <div class="content col-md-6 col-xs-12">
+                                    <h2>Slide 3</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                            
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                    <!-- End Item -->
+                </div>
+                <a data-slide="prev" href="#custom_carousel" class="izq carousel-control">‹</a>
+                <a data-slide="next" href="#custom_carousel" class="der carousel-control">›</a>
+                <!-- End Carousel Inner -->
+                <div class="controls draggable ui-widget-content col-md-6 col-xs-12">
+                    <ul class="nav ui-widget-header">
+                        <li data-target="#custom_carousel" data-slide-to="0" class="active"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide One</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="1"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Two</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="2"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Three</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="3"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Four</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="4"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Five</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="5"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Six</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="6"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Six</small></a></li>
+                        <li data-target="#custom_carousel" data-slide-to="7"><a href="#"><img src="http://lorempixel.com/416/304/nature"><small>Slide Six</small></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Carousel -->
+        </div>
+        <!--end interviews section-->
+        
+        
+        
+        
+        <section class="articles2">
 
 		</section>
-		<section class="articles3">
+        <section class="articles3">
 
 		</section>
-		<section class="crafts">
+        <section class="crafts">
 
-		</section>
-		<div id ="footer">
+        </section>
+        <div id ="footer">
 
 		</div>
-      </div>
-  <script type="text/javascript" src="jquery.fullPage.js"></script>
-  <script type="text/javascript">
-    $(Document).ready(function() {
-      $('#fullpage').fullpage();
-    });
-  </script>
+        
+        
+        <footer class="footer">
+            <div class="container">
+                <p class="text-muted">Place sticky footer content here.</p>
+            </div>
+        </footer>
+        
+        
+    </div><!--end full page-->
+    
+    
+    
+    
+    
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript">
+        $(Document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+    
+    
+    
+    
+    
+    
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
 </body>
 </html>
