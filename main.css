@@ -2,7 +2,7 @@
 /* CSS Document */
 body {
   margin: 0px;
-  background-color:aliceblue;
+  background-color:#e1ebe8;
   display: block;
 }
 #header {
@@ -98,40 +98,65 @@ li.navbar{
 
 #content{
 	margin:0;
-	top: 80px;
+}
+
+#fullpage{
+
+}
+
+.section{
+  border-style: solid;
 }
 
 .cover-video{
-	position: relative;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	background-size: cover;
-	z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(thubnail4.jpg) no-repeat;
+  background-size: cover;
 }
 
 .cover{
-  margin:8px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
 	position: relative;
 	width:100%;
 	height: 100vh;
-	background-color: #9598A4;
 	display: inline-block;
 	z-index: 10;
 	/*background-image: url("Thumbnail4.jpg");*/
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position: 50% 50%
+	background-position: 50% 50%;
 }
 
+.intro-title{
+  position: absolute;
+  top:40%;
+  left: 5%;
+  font-family: "微軟正黑體";
+}
+
+.intro-title h1{
+  font-size: 4rem;
+  text-align: left;
+}
+
+.intro-title p{
+  font-size: 1rem;
+}
 
 .infographics{
-  padding: 9rem 0rem;
+  padding: 0rem;
 	position: relative;
 	width:100%;
-	height: 50%;
-	background-color: #83898F;
+  height: 100vh;
 }
 
 .title{
@@ -154,7 +179,6 @@ h1.cover-title{
 	position: relative;
 	width: 100%;
 	height: 100vh;
-	background-color: grey;
 }
 
 .intro-infographics{
@@ -184,13 +208,9 @@ h1.cover-title{
 	width: 100%;
 	height: 100vh;
 	position: relative;
-	background-color: cadetblue
 }
 
-.summary{
-	width: 100%;
-	height: 40vh;
-}
+
 
 .summary-paragraph{
   text-align: center;
@@ -205,7 +225,6 @@ h1.cover-title{
 	height: 100vh;
 	border-top-style: solid;
 	border-bottom-style: solid;
-	background-color:cornsilk;
 }
 
 .interview{
@@ -339,6 +358,3 @@ button{
     height; 50px;
 }
 */
-
-
-
