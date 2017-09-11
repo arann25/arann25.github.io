@@ -105,7 +105,7 @@ li.navbar{
 }
 
 .section{
-  border-style: solid;
+  border-style: none;
 }
 
 .cover-video{
@@ -377,6 +377,22 @@ button{
     margin-left: 20px;
     margin-right: 20px;
 
+}
+
+.end{
+  background-color: #D8D8D8;
+}
+
+.credits{
+  padding: 5rem 0rem;
+  text-align: center;
+  color: black;
+  list-style: none;
+}
+
+.credits li{
+  margin: 0.5rem;
+  font-size: 1rem;
 }
 
 
