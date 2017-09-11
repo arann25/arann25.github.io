@@ -333,6 +333,20 @@ button{
     background-repeat: no-repeat;
 }
 
+#info3{
+    background-image: url(info_3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#info4{
+    background-image: url(info_3.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .carousel-inner > .item > img,.carousel-inner > .item > a > img{
     margin:auto;
@@ -340,7 +354,37 @@ button{
 }
 
 
+.card-img-top{
+    width: 100%;
+}
 
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    margin: auto;
+}
+
+
+.modal-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+/*
+.carousel-inner{
+    width:80%;
+    margin:0 auto;
+}
+*/
+
+/*
+.card-image{
+    min-height: 80px;
+    min-width: 80px;
+}
+*/
 
 /*
 #gallery{
