@@ -136,11 +136,19 @@ li.navbar{
 	background-position: 50% 50%;
 }
 
-.intro-title{
+#title{
   position: absolute;
-  top:40%;
+  top: 15%;
   left: 5%;
-  font-family: "微軟正黑體";
+  font-family:"微軟正黑體";
+  color: white;
+}
+
+.intro-title{
+ position: absolute;
+ top:40%;
+ left: 5%;
+ font-family: "微軟正黑體";
 }
 
 .intro-title h1{
@@ -368,7 +376,7 @@ button{
 .modal-content{
     margin-left: 20px;
     margin-right: 20px;
-    
+
 }
 
 
