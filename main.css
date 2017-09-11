@@ -356,11 +356,12 @@ button{
 }
 
 
+/*
 .carousel-inner > .item > img,.carousel-inner > .item > a > img{
     margin:auto;
     width: 50%;
 }
-
+*/
 
 .card-img-top{
     width: 100%;
@@ -373,11 +374,15 @@ button{
 }
 
 
-.modal-content{
-    margin-left: 20px;
-    margin-right: 20px;
 
+.modal .modal-dialog .modal-content{
+    /*width:50%;
+    margin:0 auto;*/
+    /*add what you want here*/
+    padding: 20px;
+    font-size: 1.5rem;
 }
+
 
 .end{
   background-color: #D8D8D8;
