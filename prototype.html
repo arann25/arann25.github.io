@@ -91,17 +91,22 @@
         <!--<div id="content" class="cf">-->
 
         <div class="cover section">
-            <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg">
-                <source src="books.mp4" type="video/mp4">
-            </video>
-            <div id="title">
-                <h1 class="cover-title">
-                    紥鐵工潮十周年
-				</h1>
-                <h2 class="cover-title">從日薪加十元到升兩倍</h2>
-				<p class="cover-title">惟工新聞｜2017</p>
-			</div>
-		</div>
+           <div class="title">
+             <h1 class="cover-title">
+               紥鐵工潮十周年
+             </h1>
+             <h2 class="cover-title">從日薪加十元到升兩倍</h2>
+             <p class="cover-title">惟工新聞｜2017</p>
+           </div>
+     		 <video class="cover-video" controls preload="auto" poster="Thumbnail4.jpg" onclick="this.paused?this.play():this.pause();">
+     			<source src="books.mp4" type="video/mp4">
+     		  </video>
+           <script>
+           $('.cover-video').parent().click(function () {
+               $(".title").toggle("slow");
+            });
+            </script>
+      		</div>
 
        <div id="intro1"class="intro section">
           <div class ="intro-title">
@@ -109,7 +114,7 @@
               導火線
             </h1>
             <p>
-              哄動一時的工潮，是在怎樣的背景下發生？使得紥鐵工人群起反抗的，又是怎樣的工作環境？
+              哄動一時的工潮，是在怎樣的背景下發生？<br>使得紥鐵工人群起反抗的，又是怎樣的工作環境？
             </p>
           </div>
         </div>
@@ -247,7 +252,7 @@
                        工潮紀事
                      </h1>
                      <p>
-                      歷時三十六天的紥鐵工潮，期間發生過哪些事情？
+                      歷時三十六天的紥鐵工潮，<br>期間發生過哪些事情？
                      </p>
                    </div>
                 </div>
@@ -269,7 +274,7 @@
         <div class="map section" id="地圖">
 
 			<!--BEGIN STORYMAPJS EMBED-->
-            <iframe src="https://uploads.knightlab.com/storymapjs/a2f2d8ccbfbe7b9bea5f81b758556500/reinforcement-fixing/index.html" frameborder="0" width="80%" height="80%" style="margin-left:10%;"></iframe>
+            <iframe src="https://uploads.knightlab.com/storymapjs/232cf60fe3e2b80f2118f8e22b11961b/zha-tie-sao-chang-di-tu/draft.html" frameborder="0" width="80%" height="80%" min-width="375px" style="display: inline-block; margin-left:10%;"></iframe>
 			<!--END STORYMAPJS EMBED-->
 
 		</div>

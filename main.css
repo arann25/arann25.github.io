@@ -136,6 +136,20 @@ li.navbar{
 	background-position: 50% 50%;
 }
 
+#intro1{
+  background-image: url("Intro1_background_2.png");
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#intro2{
+  background-image: url("Intro2_background_4.png");
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 #title{
   position: absolute;
   top: 15%;
@@ -144,20 +158,35 @@ li.navbar{
   color: white;
 }
 
+#intro1 .intro-title{
+  top:20%;
+  left:0%;
+  padding-left: 5rem;
+}
+
+#intro2 .intro-title{
+  top: 20%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+
 .intro-title{
+  color: white;
  position: absolute;
- top:40%;
- left: 5%;
  font-family: "微軟正黑體";
+ background-color: #235652;
+ padding: 0rem 2.5rem;
+
 }
 
 .intro-title h1{
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: left;
 }
 
 .intro-title p{
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .infographics{
@@ -392,6 +421,7 @@ button{
 
 .credits li{
   margin: 0.5rem;
+  padding: 1rem;
   font-size: 1rem;
 }
 
