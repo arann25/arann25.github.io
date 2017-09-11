@@ -87,7 +87,6 @@ $(document).ready(function(ev){
 
 
 $(document).ready(function(ev){
-    var items = $(".nav li").length;
     var leftRight=0;
     if(items>5){
         leftRight=(items-5)*50*-1;
@@ -98,16 +97,4 @@ $(document).ready(function(ev){
       $('#custom_carousel0 .controls li.active').removeClass('active');
       $('#custom_carousel0 .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
     })
-    $('.nav').draggable({ 
-        axis: "x",
-         stop: function() {
-            var ml = parseInt($(this).css('left'));
-            if(ml>0)
-            $(this).animate({left:"0px"});
-                if(ml<leftRight)
-                    $(this).animate({left:leftRight+"px"});
-                    
-        }
-      
-    });
 });
