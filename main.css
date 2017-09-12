@@ -116,7 +116,7 @@ li.navbar{
   border-style: none;
 }
 
-.cover-video{
+/*.cover-video{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -129,9 +129,15 @@ li.navbar{
   transform: translateX(-50%) translateY(-50%);
   background: url(thubnail4.jpg) no-repeat;
   background-size: cover;
-}
+}*/
+
+
 
 .cover{
+  background-image: url(COVER_BACKGROUND.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin:0px 0px 0px 0px;
 	position: relative;
 	width:100%;
@@ -166,13 +172,17 @@ li.navbar{
 
 }
 
-#title{
+.title{
   position: absolute;
-  top: 15%;
-  left: 5%;
-  font-family:"微軟正黑體";
+  top: 40%;
+  left: 15%;
+  font-family:"NSimSun", "STSong", "微軟正黑體";
   color: white;
+  text-align:   center;
+  border-style: solid;
+  padding: 5px 15px;
 }
+
 
 #intro1 .intro-title{
   top:20%;
@@ -245,7 +255,7 @@ li.navbar{
 .intro-title{
   color: white;
  position: absolute;
- font-family: "微軟正黑體";
+ font-family: "NSimSun", "STSong", "微軟正黑體";
  background-color: #235652;
  padding: 0rem 2.5rem;
 
@@ -267,20 +277,16 @@ li.navbar{
   height: 100vh;
 }
 
-.title{
-	position:absolute;
-	top: 15%;
-	left: 30px;
-	color: White;
-	font-family: "微軟正黑體";
-  z-index: 10000
-}
+
 
 h1.cover-title{
 	font-size: 4rem;
 	z-index: 0;
 }
 
+h2.cover-title{
+  font-size: 2.2rem;
+}
 
 .daily-log{
   margin: 8px 0px 0px 0px;
