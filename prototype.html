@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+ <meta property="og:type"          content="website" />
+ <meta property="og:title"         content="Your Website Title" />
+ <meta property="og:description"   content="Your description" />
+ <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
 
 
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
@@ -27,7 +32,14 @@
 </head>
 
 <body>
-
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v2.10";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <!--	<div id="header">
   		<div class="header-container cf">
 
@@ -66,6 +78,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#"><img src="main-logo.png" height="25" alt="logo"></a>
+                <div class="fb-share-button" data-href="https://wknews.org/1984coalminersstrike/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwknews.org%2F1984coalminersstrike%2F&amp;src=sdkpreparse">分享</a></div>
             </div><!--end navbar-header-->
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
@@ -179,68 +192,70 @@
 
 
         <div class="container-fluid section" id="tech">
-            
+
             <div class ="intro-title">
                 <h1>紮鐵工藝</h1>
             </div>
-            
+
             <div id="custom_carousel0" class="carousel slide" data-ride="carousel" data-interval="4000">
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="top col-md-6 col-xs-12">
-                            <video class="cover-video" controls preload="auto">
-                                <source src="books.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <div class="content col-md-6 col-xs-12">
-                            <h2>Slide 1</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="top col-md-6 col-xs-12"><img src="02.png" class="img-responsive"></div>
-                        <div class="content col-md-6 col-xs-12">
-                            <h2>Slide 2</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="top col-md-6 col-xs-12"><img src="03.png" class="img-responsive"></div>
-                        <div class="content col-md-6 col-xs-12">
-                            <h2>Slide 3</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         <div class="item">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="top col-md-6 col-xs-12"><img src="04.png" class="img-responsive"></div>
-                        <div class="content col-md-6 col-xs-12">
-                            <h2>Slide 1</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <!-- End Item -->
-        </div>
-        <a data-slide="prev" href="#custom_carousel0" class="izq carousel-control">‹</a>
-        <a data-slide="next" href="#custom_carousel0" class="der carousel-control">›</a>
-    </div>
-    <!-- End Carousel -->
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="top col-md-6 col-xs-12">
+                              <video class="cover-video" controls preload="auto">
+                                  <source src="books.mp4" type="video/mp4">
+                              </video>
+                          </div>
+                          <div class="content col-md-6 col-xs-12">
+                              <h2>Slide 1</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="top col-md-6 col-xs-12"><img src="02.png" class="img-responsive"></div>
+                          <div class="content col-md-6 col-xs-12">
+                              <h2>Slide 2</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="top col-md-6 col-xs-12"><img src="03.png" class="img-responsive"></div>
+                          <div class="content col-md-6 col-xs-12">
+                              <h2>Slide 3</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+           <div class="item">
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="top col-md-6 col-xs-12"><img src="04.png" class="img-responsive"></div>
+                          <div class="content col-md-6 col-xs-12">
+                              <h2>Slide 1</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, labore, magni illum nemo ipsum quod voluptates ab natus nulla possimus incidunt aut neque quaerat mollitia perspiciatis assumenda asperiores consequatur soluta.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>-->
+          <!-- End Item -->
+          </div>
+          <a data-slide="prev" href="#custom_carousel0" class="izq carousel-control">‹</a>
+          <a data-slide="next" href="#custom_carousel0" class="der carousel-control">›</a>
+      </div>
+      <!-- End Carousel -->
+
+
 
         </div><!--end technicalSkill section-->
 
@@ -333,11 +348,11 @@
 
         <!--<div class="interviews section" id="訪問" >-->
         <div class="container-fluid section" id="in1">
-            
+
             <div class ="intro-title">
                 <h1>被捲入工潮的人</h1>
             </div>
-            
+
         <div id="custom_carousel1" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -409,11 +424,11 @@
 
         <!--<div class="interviews section" id="訪問" >-->
         <div class="container-fluid section" id="in2">
-            
+
             <div class ="intro-title">
                 <h1>另一種眼光看罷工</h1>
             </div>
-            
+
         <div id="custom_carousel2" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -469,11 +484,11 @@
 
         <!--<div class="interviews section" id="訪問" >-->
         <div class="container-fluid section" id="in3">
-            
+
             <div class ="intro-title">
                 <h1>熱鬧過後的這一個十年</h1>
             </div>
-            
+
         <div id="custom_carousel3" class="carousel slide" data-ride="carousel" data-interval="4000">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -497,7 +512,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="top col-md-6 col-xs-12"><img src="homa_01.jpg" class="img-responsive"></div>
-                        <div class="content col-md-6 col-xs-12">         
+                        <div class="content col-md-6 col-xs-12">
                             <h2>劉庚豪（河馬）</h2>
                             <p>工潮期間身份：紮鐵散工</p>
                             <p>十年後身份：紮鐵散工</p>

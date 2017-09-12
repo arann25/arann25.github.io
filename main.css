@@ -150,6 +150,14 @@ li.navbar{
    background-size: cover;
 }
 
+#intro3{
+  background-image: url("Intro3_background.jpg");
+  background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
 #title{
   position: absolute;
   top: 15%;
@@ -184,11 +192,11 @@ li.navbar{
 }
 
 #tech{
-    top:12%;
+    top:0;
 }
 
 #in1{
-    top:12%;
+    top:0%;
 }
 
 #in2 .intro-title{
@@ -198,7 +206,7 @@ li.navbar{
 }
 
 #in2{
-    top:12%;
+    top:0%;
 }
 
 
@@ -209,7 +217,7 @@ li.navbar{
 }
 
 #in3{
-    top:12%;
+    top:0%;
 }
 
 
@@ -268,6 +276,11 @@ h1.cover-title{
 .info-container{
 	display: flex;
 	align-items: center
+}
+
+#tech .intro-title{
+  top:15%;
+  left:5%;
 }
 
 .crime1, .crime2, .crime3{
