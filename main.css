@@ -190,6 +190,8 @@ li.navbar{
   padding-left: 5rem;
 }
 
+
+
 #in1 .intro-title{
   top: 3%;
   left: 0%;
@@ -197,11 +199,6 @@ li.navbar{
 }
 
 
-#tech .intro-title{
-  top: 3%;
-  left: 0%;
-  padding-left: 5rem;
-}
 
 #tech{
     top:0;
@@ -298,8 +295,8 @@ h1.cover-title{
 }
 
 #tech .intro-title{
-  top:15%;
-  left:5%;
+  top:10%;
+  left:0%;
 }
 
 .crime1, .crime2, .crime3{
