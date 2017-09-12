@@ -205,24 +205,9 @@ li.navbar{
 
 
 #in1 .intro-title{
-  top: 3%;
+  top: 10%;
   left: 0%;
   padding-left: 5rem;
-}
-
-
-
-#tech{
-    top:0;
-}
-
-#in1{
-    top:0%;
-}
-
-#in1 .intro-title{
-  top:10%;
-  padding-left: 5rem
 }
 
 #in2 .intro-title{
@@ -231,20 +216,25 @@ li.navbar{
   padding-left: 5rem;
 }
 
-#in2{
-    top:0%;
-}
-
-
 #in3 .intro-title{
   top: 10%;
   left: 0%;
   padding-left: 5rem;
 }
 
-#in3{
-    top:0%;
+#custom_carousel1{
+    padding-top: 50px;
 }
+#custom_carousel2{
+    padding-top: 50px;
+}
+#custom_carousel3{
+    padding-top: 50px;
+}
+
+
+
+
 
 #intro-infographics{
   top:15%;
@@ -510,7 +500,9 @@ button{
 }
 
 
-
+#boxes{
+    padding-top: 300px;
+}
 
 
 /*
