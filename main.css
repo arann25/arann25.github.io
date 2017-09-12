@@ -157,7 +157,7 @@ li.navbar{
 }
 
 #intro3{
-  background-image: url("Intro3_background.jpg");
+  background-image: url("Intro3_background_2.jpg");
   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -181,6 +181,12 @@ li.navbar{
 #intro2 .intro-title{
   top: 20%;
   left: 0%;
+  padding-left: 5rem;
+}
+
+#intro3 .intro-title{
+  top:20%;
+  left:0;
   padding-left: 5rem;
 }
 
