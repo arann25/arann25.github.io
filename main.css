@@ -204,37 +204,6 @@ li.navbar{
 
 
 
-#in1 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-#in2 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-#in3 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-#custom_carousel1{
-    padding-top: 50px;
-}
-#custom_carousel2{
-    padding-top: 50px;
-}
-#custom_carousel3{
-    padding-top: 50px;
-}
-
-
-
-
 
 #intro-infographics{
   top:15%;
@@ -292,10 +261,7 @@ h2.cover-title{
 	align-items: center
 }
 
-#tech .intro-title{
-  top:10%;
-  left:0%;
-}
+
 
 .crime1, .crime2, .crime3{
 	display:block;
@@ -479,6 +445,8 @@ button{
     /*add what you want here*/
     padding: 25px 45px 20px 45px;
     font-size: 1.5rem;
+    font-family: "NSimSun", "STSong", "微軟正黑體";
+    background-color: #e1ebe8;
 }
 
 
@@ -535,3 +503,20 @@ button{
     height; 50px;
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
