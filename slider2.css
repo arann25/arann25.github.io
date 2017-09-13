@@ -15,7 +15,7 @@ width:100%;
 height:auto;
 }
 
-#custom_carousel1 .izq 
+#custom_carousel1 .izq
 {
     position:absolute;
   left: -25px;
@@ -29,7 +29,7 @@ height:auto;
   margin-top: 30px;
 }
 /* Next button  */
-#custom_carousel1 .der 
+#custom_carousel1 .der
 {
        position:absolute;
   right: -25px !important;
@@ -130,7 +130,7 @@ width:100%;
 height:auto;
 }
 
-#custom_carousel2 .izq 
+#custom_carousel2 .izq
 {
     position:absolute;
   left: -25px;
@@ -144,7 +144,7 @@ height:auto;
   margin-top: 30px;
 }
 /* Next button  */
-#custom_carousel2 .der 
+#custom_carousel2 .der
 {
        position:absolute;
   right: -25px !important;
@@ -246,7 +246,7 @@ width:100%;
 height:auto;
 }
 
-#custom_carousel3 .izq 
+#custom_carousel3 .izq
 {
     position:absolute;
   left: -25px;
@@ -260,7 +260,7 @@ height:auto;
   margin-top: 30px;
 }
 /* Next button  */
-#custom_carousel3 .der 
+#custom_carousel3 .der
 {
        position:absolute;
   right: -25px !important;
@@ -365,7 +365,7 @@ height:auto;
     height:auto;
 }
 
-#custom_carousel0 .izq 
+#custom_carousel0 .izq
 {
     position:absolute;
   left: -0px; /*20*/
@@ -379,7 +379,7 @@ height:auto;
   margin-top: 30px;
 }
 /* Next button  */
-#custom_carousel0 .der 
+#custom_carousel0 .der
 {
        position:absolute;
   right: -0px !important; /*20*/
@@ -473,42 +473,3 @@ height:auto;
 #custom_carousel3{
     padding-top: 50px;
 }
-
-
-
-
-#tech .title{
-    top:10%;
-    left:0%;
-    margin-bottom: 10px;
-    height: 10vh;
-    font-size: 1rem;
-    background-color: #235652;
-    font-family:"NSimSun", "STSong", "微軟正黑體";
-    color: white;
-    text-align:   center;
-    border-style: solid;
-}
-
-#in1 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-#in2 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-#in3 .intro-title{
-  top: 10%;
-  left: 0%;
-  padding-left: 5rem;
-}
-
-
-
-
-

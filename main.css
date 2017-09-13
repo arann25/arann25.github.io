@@ -228,6 +228,10 @@ ul.info{
     right:0%;
   }
 
+  p.card-text{
+    font-size: 1vh;
+  }
+
 }
 
 @media screen and (max-width: 370px){
@@ -289,7 +293,16 @@ h2.cover-title{
 	align-items: center
 }
 
-
+@media screen and (max-width: 990px){
+  #intro-tech{
+    right:0%;
+    }
+  #intro-tech h1{
+    font-size: 2.7vh;
+    font-weight: 500;
+    text-align: right;
+  }
+}
 
 .crime1, .crime2, .crime3{
 	display:block;
@@ -303,6 +316,32 @@ h2.cover-title{
 
 #timeline-embed{
 }
+
+
+#tech .intro-title{
+    top:50px;
+    margin-bottom: 10px;
+}
+
+#in1 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+#in2 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+#in3 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+
 
 .map{
 	width: 100%;
@@ -505,9 +544,6 @@ button{
   display:inline-block;
 }
 
-p.card-text{
-  font-size: 1vh;
-}
 
 /*
 .carousel-inner{
@@ -539,20 +575,3 @@ p.card-text{
     height; 50px;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
