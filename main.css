@@ -188,12 +188,14 @@ li.navbar{
   top:20%;
   left:0%;
   padding-left: 5rem;
+  max-width: 700px;
 }
 
 #intro2 .intro-title{
   top: 20%;
   left: 0%;
   padding-left: 5rem;
+  max-width: 500px;
 }
 
 #intro3 .intro-title{
@@ -206,10 +208,34 @@ li.navbar{
 
 
 #intro-infographics{
-  top:15%;
+  top:50px;
 }
 
+ul.info{
+  list-style: none;
+}
 
+@media screen and (max-width:990px){
+  #intro-infographics p{
+    visibility: hidden;
+    display: none;
+  }
+  #intro-infographics h1{
+    font-size: 2.7vh;
+    font-weight: 500;
+  }
+  #intro-infographics {
+    right:0%;
+  }
+
+}
+
+@media screen and (max-width: 370px){
+  .card-img-top{
+    visibility: hidden;
+    display: none;
+  }
+}
 
 .intro-title{
   color: white;
@@ -221,12 +247,13 @@ li.navbar{
 }
 
 .intro-title h1{
-  font-size: 6rem;
+  font-size: 5rem;
   text-align: left;
+  font-weight: 600
 }
 
 .intro-title p{
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .infographics{
@@ -241,6 +268,7 @@ li.navbar{
 h1.cover-title{
 	font-size: 4rem;
 	z-index: 0;
+  font-weight: 700;
 }
 
 h2.cover-title{
@@ -428,7 +456,7 @@ button{
 */
 
 .card-img-top{
-    width: 100%;
+    width:15vw;
 }
 
 .card{
@@ -472,6 +500,14 @@ button{
     padding-top: 300px;
 }
 
+
+.rows{
+  display:inline-block;
+}
+
+p.card-text{
+  font-size: 1vh;
+}
 
 /*
 .carousel-inner{
