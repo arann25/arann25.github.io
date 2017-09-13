@@ -12,7 +12,7 @@
 }
 #custom_carousel1 .item img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel1 .izq 
@@ -77,7 +77,7 @@ height:auto
 }
 #custom_carousel1 .controls li img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel1 .controls li.active {
@@ -89,8 +89,19 @@ height:auto
     display:block;
     font-size:10px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -116,7 +127,7 @@ height:auto
 }
 #custom_carousel2 .item img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel2 .izq 
@@ -181,7 +192,7 @@ height:auto
 }
 #custom_carousel2 .controls li img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel2 .controls li.active {
@@ -193,8 +204,20 @@ height:auto
     display:block;
     font-size:10px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -216,11 +239,11 @@ height:auto
     color:#000;
     background-color:#fff;
     padding:20px 0;
-    overflow:hidden
+    overflow:hidden;
 }
 #custom_carousel3 .item img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel3 .izq 
@@ -285,7 +308,7 @@ height:auto
 }
 #custom_carousel3 .controls li img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel3 .controls li.active {
@@ -297,7 +320,7 @@ height:auto
     display:block;
     font-size:10px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
 }
 
 
@@ -310,27 +333,42 @@ height:auto
 
 
 
+
+
+
+
+
+
+
+
+/*
+#custom_carousel0{
+    padding-top: 80px;
+}*/
 
 #custom_carousel0 .item  .top {
     overflow:hidden;
-    max-height:300px;
+    max-height:450px;
     margin-bottom:15px;
+    margin-top: 20px;
 }
+
 #custom_carousel0 .item {
     color:#000;
-    background-color:#fff;
-    padding:20px 0;
-    overflow:hidden
+    /*background-color:#fff;*/
+    padding:30px 60px;
+    overflow:scroll;
 }
+
 #custom_carousel0 .item img{
-width:100%;
-height:auto
+    width:100%;
+    height:auto;
 }
 
 #custom_carousel0 .izq 
 {
     position:absolute;
-  left: -25px;
+  left: -0px; /*20*/
   top:40%;
   background-image: none;
   background: none repeat scroll 0 0 #222222;
@@ -344,7 +382,7 @@ height:auto
 #custom_carousel0 .der 
 {
        position:absolute;
-  right: -25px !important;
+  right: -0px !important; /*20*/
   top:40%;
   left:inherit;
   background-image: none;
@@ -355,7 +393,8 @@ height:auto
   width : 40px;
   margin-top: 30px;
 }
-#custom_carousel0 .controls{
+
+/*#custom_carousel0 .controls{
 
     overflow:hidden;
     padding:0;
@@ -389,7 +428,7 @@ height:auto
 }
 #custom_carousel0 .controls li img{
 width:100%;
-height:auto
+height:auto;
 }
 
 #custom_carousel0 .controls li.active {
@@ -401,5 +440,75 @@ height:auto
     display:block;
     font-size:10px;
     margin-top:5px;
-    font-weight:bold
+    font-weight:bold;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#custom_carousel1{
+    padding-top: 50px;
 }
+#custom_carousel2{
+    padding-top: 50px;
+}
+#custom_carousel3{
+    padding-top: 50px;
+}
+
+
+
+
+#tech .title{
+    top:10%;
+    left:0%;
+    margin-bottom: 10px;
+    height: 10vh;
+    font-size: 1rem;
+    background-color: #235652;
+    font-family:"NSimSun", "STSong", "微軟正黑體";
+    color: white;
+    text-align:   center;
+    border-style: solid;
+}
+
+#in1 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+#in2 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+#in3 .intro-title{
+  top: 10%;
+  left: 0%;
+  padding-left: 5rem;
+}
+
+
+
+
+
