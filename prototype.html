@@ -86,10 +86,10 @@
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
               <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwknews.org%2Fbarbender-strike&layout=button_count&size=small&mobile_iframe=true&width=73&height=20&appId" width="73" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>           <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#前言">工潮前<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#pre">工潮前<span class="sr-only">(current)</span></a></li>
                     <li><a href="#tech">工藝</a></li>
-                    <li><a href="#日誌">日誌</a></li>
-                    <li><a href="#地圖">地圖</a></li>
+                    <li><a href="#record">日誌</a></li>
+                    <li><a href="#map">地圖</a></li>
                     <li><a href="#in1">捲進去的人</a></li>
                     <li><a href="#in2">另類視角</a></li>
                     <li><a href="#in3">十年之後</a></li>
@@ -103,7 +103,7 @@
 
 
 
-    <div id="fullpage">
+    <div id="main" class="fullpage">
         <!--<div id="content" class="cf">-->
 
         <div class="cover section">
@@ -144,7 +144,7 @@
 
 
 
-        <div class="infographics section" id="前言">
+        <div class="infographics section" id="pre">
             <div id="intro-infographics" class="intro-title">
                 <h1>工潮前狀況</h1>
                 <p>2007年7月，紮鐵工人爭取加薪至日薪950元，並恢復八小時工作的行規。到8月初行內約定調薪的日子，訴求未獲商會應允，燃起持續36天的罷工。看似普通的勞工待遇談判之所以釀成大罷工，跟主權移交後十年業內累積的剝削大有關係。</p>
@@ -422,7 +422,7 @@
 
 
 
-        <div class="daily-log section" id="日誌">
+        <div class="daily-log section" id="record">
 
             <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
             <!--BEGIN TIMELINEJS EMBED-->
@@ -431,7 +431,7 @@
 
         </div>
 
-        <div class="map section" id="地圖">
+        <div class="map section" id="map">
 
 			<!--BEGIN STORYMAPJS EMBED-->
             <iframe src="https://uploads.knightlab.com/storymapjs/232cf60fe3e2b80f2118f8e22b11961b/zha-tie-sao-chang-di-tu/draft.html" frameborder="0" width="80%" height="90%" min-width="375px" style="display: inline-block; margin-left:10%;margin-top: 5%;"></iframe>
@@ -755,6 +755,9 @@
             <li>網頁開發</li>
             <li>嗚謝</li>
         </ul>
+            
+            <button id="turnOff">Not allow</button>
+<button id="turnOn">Allow</button>
         </div>
 
 
@@ -766,9 +769,10 @@
 
 
     <script type="text/javascript" src="jquery.fullPage.js"></script>
+    
     <script type="text/javascript">
         $(Document).ready(function() {
-            $('#fullpage').fullpage();
+            $('.fullpage').fullpage();
         });
     </script>
 
@@ -777,7 +781,7 @@
 
 
 
-    <div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal1">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
                 <h1><span style="font-weight:bold;">被卷進工潮的人</span>——<span style="font-style:oblique;">黃惠民（阿Man）</h1>
