@@ -16,7 +16,7 @@
  <meta property="og:type"          content="website" />
  <meta property="og:title"         content="紥鐵工潮十周年 從日薪加十元到升兩倍" />
  <meta property="og:description"   content="紮鐵工潮十週年，我們可記得紮鐵工人經歷了怎樣的鬥爭？平日開工又背負了怎樣的技藝與風險？夢想加人工是人之常情，要付出甚麼血汗與抗爭才能走到這一步，卻未必為人所知。回顧過去，探索今天業內的希望與隱憂，爭取權益的打工仔不能錯過這個先例。" />
- <meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+ <meta property="og:image"         content="https://wknews.org/barbender-strike/ironman-cover-preview.jpg" />
 
 <link rel="shortcut icon" href="https://wknews.org/sites/all/themes/responsive_blog/favicon.ico" type="image/vnd.microsoft.icon">
 
@@ -86,13 +86,13 @@
 
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
               <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwknews.org%2Fbarbender-strike&layout=button_count&size=small&mobile_iframe=true&width=73&height=20&appId" width="73" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>           <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#前言">工潮前<span class="sr-only">(current)</span></a></li>
-                    <li><a href="#tech">工藝</a></li>
-                    <li><a href="#日誌">日誌</a></li>
-                    <li><a href="#地圖">地圖</a></li>
-                    <li><a href="#in1">捲進去的人</a></li>
-                    <li><a href="#in2">另類視角</a></li>
-                    <li><a href="#in3">十年之後</a></li>
+                    <li><a href="#infographic">工潮前<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#craft">工藝</a></li>
+                    <li><a href="#dailylog">日誌</a></li>
+                    <li><a href="#storymap">地圖</a></li>
+                    <li><a href="#interview1">捲進去的人</a></li>
+                    <li><a href="#interview2">另類視角</a></li>
+                    <li><a href="#interview3">十年之後</a></li>
                 </ul><!--end nav navbar-nav-->
             </div><!--collapse navbar-collapse-->
         </div><!--end container-fluid-->
@@ -106,7 +106,7 @@
     <div id="fullpage">
         <!--<div id="content" class="cf">-->
 
-        <div class="cover section">
+        <div class="cover section" data-anchor="coverpage">
            <div class="title">
              <h1 class="cover-title">
                紥鐵工潮十周年
@@ -124,11 +124,11 @@
           </script>-->
       		</div>
 
-          <div class="intro-video section">
+          <div class="intro-video section" data-anchor="video">
             <iframe src="https://player.vimeo.com/video/233518558" width="85%" height="85%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="margin-left:7%;"></iframe>
           </div>
 
-       <div id="intro1"class="intro section">
+       <div id="intro1"class="intro section" data-anchor="introduction1">
           <div class ="intro-title">
             <h1>
               前言
@@ -144,7 +144,7 @@
 
 
 
-        <div class="infographics section" id="前言">
+        <div class="infographics section" id="前言" data-anchor="infographic">
             <div id="intro-infographics" class="intro-title">
                 <h1>工潮前狀況</h1>
                 <p>2007年7月，紮鐵工人爭取加薪至日薪950元，並恢復八小時工作的行規。到8月初行內約定調薪的日子，訴求未獲商會應允，燃起持續36天的罷工。看似普通的勞工待遇談判之所以釀成大罷工，跟主權移交後十年業內累積的剝削大有關係。</p>
@@ -203,7 +203,7 @@
 
 
 
-        <div class="container-fluid section" id="tech">
+        <div class="container-fluid section" id="tech" data-anchor="craft">
 
             <div id="intro-tech"class ="intro-title">
                 <h1>紮鐵工藝</h1>
@@ -406,7 +406,7 @@
 
 
 
-                <div id="intro2" class="intro section">
+                <div id="intro2" class="intro section" data-anchor="introduction2">
                    <div class ="intro-title">
                      <h1>
                        工潮紀事
@@ -422,7 +422,7 @@
 
 
 
-        <div class="daily-log section" id="日誌">
+        <div class="daily-log section" id="日誌" data-anchor="dailylog">
 
             <div style="z-index:1000;position:absolute;rgba(0, 0, 0,1);height:100%;width:100%" class="hidden-md hidden-lg"></div>
             <!--BEGIN TIMELINEJS EMBED-->
@@ -431,7 +431,7 @@
 
         </div>
 
-        <div class="map section" id="地圖">
+        <div class="map section" id="地圖" data-anchor="storymap">
 
 			<!--BEGIN STORYMAPJS EMBED-->
             <iframe src="https://uploads.knightlab.com/storymapjs/232cf60fe3e2b80f2118f8e22b11961b/zha-tie-sao-chang-di-tu/draft.html" frameborder="0" width="80%" height="90%" min-width="375px" style="display: inline-block; margin-left:10%;margin-top: 5%;"></iframe>
@@ -439,7 +439,7 @@
 
 		</div>
 
-        <div id="intro3" class="intro summary section">
+        <div id="intro3" class="intro summary section" data-anchor="introduction3">
 
             <div class="intro-title">
                 <h1>筵席之後</h1>
@@ -494,7 +494,7 @@
 
 
         <!--<div class="interviews section" id="訪問" >-->
-        <div class="container-fluid section" id="in1">
+        <div class="container-fluid section" id="in1" data-anchor="interview1">
 
             <div class ="intro-title">
                 <h1>被捲入工潮的人</h1>
@@ -585,7 +585,7 @@
 
 
         <!--<div class="interviews section" id="訪問" >-->
-        <div class="container-fluid section" id="in2">
+        <div class="container-fluid section" id="in2" data-anchor="interview2">
 
             <div class ="intro-title">
                 <h1>另一種眼光看罷工</h1>
@@ -655,7 +655,7 @@
 
 
         <!--<div class="interviews section" id="訪問" >-->
-        <div class="container-fluid section" id="in3">
+        <div class="container-fluid section" id="in3" data-anchor="interview3">
 
             <div class ="intro-title">
                 <h1>熱鬧過後的這一個十年</h1>
@@ -773,21 +773,32 @@
     </script>
 
 
+    <!--<script type="text/javascript">
+      $('#in1').on('shown.bs.modal', function(){
+        $.fn.fullpage.setAllowScrolling(false);
+      })
+    </script>
 
-
-
+    <script type="text/javascript">
+      $('#in1').on('hidden.bs.modal', function(){
+        $.fn.fullpage.setAllowScrolling(true);
+      })
+    </script>-->
 
     <div class="modal fade modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">被卷進工潮的人</span>——<span style="font-style:oblique;">黃惠民（阿Man）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="man_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="man_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：紮鐵工人、工人代表<br>十年後身份：半退休紮鐵工人、紮鐵業團結工會總幹事</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1551" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <p>【惟工新聞】人稱「阿Man」的紮鐵業團結工會總幹事黃惠民，於1970年代末期成為紮鐵學徒，入行至今接近40年。10年前，他積極參與紮鐵工潮，成為其中一位工人領袖，負責面對傳媒，也時常鼓勵士氣和調解紛爭。工潮結束後，阿Man與其他紮鐵工友在職工盟的協助下成立了「紮鐵業團結工會」，並成為工會第一屆副理事長。時值紮鐵工潮十週年，我們訪問了阿Man，希望了解工潮前的紮鐵業，也希望了解他加入工會10年來的經歷。</p>
                 <br>
                 <p>阿Man出生於五十年代，13歲便輟學投身社會，在鐘錶店做學徒。數年後一夠秤便轉到錶殼廠，希望學得一門手藝，但卻被老闆調到包裝部。阿Man因此投身紡織業，並以五、六年時間學全紗廠內每個工序的技術，更晉升為指導工。後來阿Man因為暗中組織廠內工友罷工，廠東「順藤摸瓜」得知他是主事者，最後將他解僱。</p>
@@ -807,6 +818,9 @@
                 <p>建造業工傷如此嚴重，除了因為地盤危機四伏、安全措施不足以外，亦與工時和工作量有關。阿Man曾在記者招待會說過，1997年後紮鐵工人除了被減薪，工時亦由原來的8小時增至8.5小時，甚至更長。紮鐵業的勞動強度如此之高，8小時工作已是人體極限。若繼續延長工時，發生嚴重事故的風險勢必大增。難怪在2007年紮鐵工潮時，工友寧願在加薪幅度上讓步，也堅持回復8小時工作制。</p>
                 <br>
                 <p><small><a href="https://www.censtatd.gov.hk/hkstat/sub/sp330_tc.jsp?productCode=B1090002">[1] 見統計處〈建造工程完成量按季統計調查報告〉</a></small><p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
 
             </div>
         </div>
@@ -815,14 +829,17 @@
     <div class="modal fade modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">被卷進工潮的人</span>——<span style="font-style:oblique;">劉庚豪（河馬）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：紮鐵散工<br>十年後身份：紮鐵散工</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1552" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <p>【惟工新聞】「起樓者不得其居呀。」暱稱「河馬」的紮鐵老師傅劉庚豪，開口像個老派教書先生，手上一桿毛筆贏過書法獎項也讓他到過美術館參展，但他的的確確是個地盤佬。十年前的紮鐵工潮，他參與其中，其後也目睹工會成立，可是這場勝利卻讓他感慨世事無法盡如人意。建築商向傳媒吹噓紮鐵人工高前途好，上了年紀的河馬卻不多機會開工。「呢一行，仲有好多黑暗面！」</p>
                 <br>
                 <h4><span style="font-weight:bold;">「人地喺出面罷工！你仲瞓覺？」</span></h4>
@@ -835,6 +852,9 @@
                 <p>爭到打崩頭不見得一定爭到飯碗，不少工友惟有轉行。河馬在罷工前做過保安員，也做過的士司機，但駕駛畢竟不是自己專精的技藝。「試過俾人撞，就怯。」河馬之後還是回去紮鐵：「桐油酲都係裝桐油！」</p>
                 <br>
                 <p>投身罷工後，說話頭頭是道的河馬常負責巡迴大專院校，向學生講解工潮之餘，也向公眾籌款。罷工結束後，職工盟代表李卓人有邀請擅長書法的他寫揮春，但緊接工潮之後的紮鐵市道仍未恢復，河馬為了餬口轉行當機械雜工，「一個月人工萬幾蚊，都幾好。」</p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -842,14 +862,17 @@
     <div class="modal fade modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">被卷進工潮的人</span>——<span style="font-style:oblique;">黃彩鳳（彩鳳）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="choifung_02.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="choifung_02.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：社運人士<br>十年後身份：家務勞動者、兼職講師</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1553" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <p>【惟工新聞】罷工現場有工人，必需；有工會幹事，正常；有記者有警察，意料之中。要是除卻上述人等以外尚有旁人幾乎天天踏足現場熱情投入，似乎不太容易想像。但「自治八樓」（學聯社會運動資源中心）成員黃彩鳳早在紮鐵工潮已經辦到這一點，與工人打成一片，看顧被忽略的人，原本較不受注目的工人文藝創作以至少數族裔工人，都被她帶入眾人視線範圍內。事隔十年，不少曾參與工潮的工友依然記得彩鳳，聊起近況，甚至打趣說「真係估唔到佢會結婚生仔」。</p>
                 <br>
                 <p>你是人，我是人，展開對話不必計較那麼多身份。彩鳳以行動示範了罷工聲援者除了捐錢和呃like之外更多直接扣連工友的可能。「我定位係打雜，去到，就睇下有咩邊緣嘅位。」越是邊緣，越需要接觸和理解。</p>
@@ -866,6 +889,9 @@
                 <p>在現場拍下來的片，每天交回後勤戰友手上剪輯，放上Youtube發佈。縱使未必有渠道廣泛散播給七百萬人，卻讓有意聲援的人士對每日工潮動向心裡有了個譜，要跟進要凝聚也有個把握。觀眾當然也少不了工人自己，要有回應影片的機會，被訪者才不致淪為被媒體單向呈現、百辭莫辯的「物件」，這是自治八樓對媒體的理念。「原本有諗過做現場放映，但做唔到，我地出唔到人手。」對此，彩鳳有著小小的遺憾。</p>
                 <br>
                 <p>工潮期間的影像最終被剪輯成紀錄片《紮草根．鐵生花》，同年10至11月在第五屆社會運動電影節播放，她自然不忘邀請工友去看放映。</p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -873,14 +899,17 @@
     <div class="modal fade modal4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">另一種眼光看罷工</span>——<span style="font-style:oblique;">劉庚豪（河馬）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：紮鐵散工<br>十年後身份：紮鐵散工</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1552" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <h4><span style="font-weight:bold;">長散工、散工同工不同酬  判頭吞食差價自肥</span></h4>
                 <p>【惟工新聞】轉行了一段日子，但河馬還是不習慣工作環境，回去紮鐵。紮鐵業團結工會在工潮後成立了，會務漸上軌道，引以為傲的集體談判機制亦帶來了可觀的工資增長。不過，河馬認為一片光鮮背後不無陰影。</p>
                 <br>
@@ -891,6 +920,9 @@
                 <p>根據建造業議會數字，2007年全港有效註冊的「鋼筋屈紮工」有2,407位，直至2016年末則增至7,922位。人手以倍數增長，自然與年輕新血入行有關，河馬覺得青年加入是好事，但對他們在行業的發展前景卻相當悲觀。他觀察到不少新入行的青年做當了長散工，薪水不高。但改為當散工，收入不穩定，長遠也不是出路。「紮鐵呢啲就業不穩定嘅行業，兩日打魚，三日曬網。香港係成個工業結構有問題，後生仔入唔到大學，就去建造業議會，做埋呢啲工。」十年來，紮鐵工人的工會是站穩了，也爭取到一些成果，但另一邊廂的社會卻變得比十年前更扭曲，育有一雙子女的河馬憂心青年的生計，工資不夠安身立命：「豪宅係咁起俾啲豪客，以億計掃貨。何文田嗰個天鑄，賣到四萬蚊一呎。」</p>
                 <br>
                 <p>諷刺的是，興建天鑄的地皮，是靠剷平公屋（前身為山谷道邨）而得來的。</p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -898,14 +930,17 @@
     <div class="modal fade modal5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">另一種眼光看罷工</span>——<span style="font-style:oblique;">黃彩鳳（彩鳳）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="choifung_02.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="choifung_02.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：社運人士<br>十年後身份：家務勞動者、兼職講師</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1553" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <h4><span style="font-weight:bold;">從地上拾起工人文藝：「我讀到小三之嘛」</span></h4>
                 <p>【惟工新聞】光是抽離地記錄，未必需要與工友建立關係，彩鳳做的是連結更多的人，讓大家都能夠投入工潮之中。「我最鐘意吸現場唔出聲的人。」她眯眼一笑：「因為霸權週圍都係，任何一個運動都會出現主流同邊緣。」</p>
                 <br>
@@ -938,6 +973,9 @@
                 <p>作為生理女性，在盡是男人的紮鐵工人堆裡流連，或許也是某種意義上的邊緣，但彩鳳不太在意。扎鐵商會主席曾燈發被批評刻薄工人，工潮期間是眾矢之的，「曾燈發！揸爆佢（春袋）！」的口號響徹雲霄。「我都係基層出身，我老爺都係地盤工友，我自己講嘢又粗魯啲。」她喊口號也喊得很盡興，而且看出粗口本身的邊緣性：「千祈唔好俾佢地一般嘅粗魯誤導，咁係缺乏階級分析。好多人覺得我係女性主義者，但我唔認為可以咁簡單話紮鐵佬好masculine然後去否定。」</p>
                 <br>
                 <p>遇到混帳之事，例如建築商運送工賊進入地盤開工以破壞罷工成效，不少工人都把對方冚家上下女性親屬問候了個透。「啲人將粗口等同地盤佬，呢個係一個階級問題。點解屌人唔得啫？我地要將工人嘅語言提升返上嚟。」彩鳳沒有粗口過敏症，如常輕鬆應對：「我同佢地講，屌人老母唔好屌得咁盡吖，屌人老闆啦。屌佢老闆，實啱。」</p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -945,14 +983,17 @@
     <div class="modal fade modal6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">熱鬧過後的這一個十年</span>——<span style="font-style:oblique;">黃惠民（阿Man）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="man_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="man_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：紮鐵工人、工人代表<br>十年後身份：半退休紮鐵工人、紮鐵業團結工會總幹事</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1551" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <p>【惟工新聞】今年是紮鐵業團結工會成立十週年。這十年來，工會的成績有目共睹。薪酬方面，在工會的推動下，工友成功透過集體談判機制向商會爭取加薪，使紥鐵大工的日薪由2007年的860元逐步提升至2012年的1,360元。根據早前談判中雙方達成的協議，今年5月1日起日薪更調高至2,370元。「喺每次談判之前，通常喺農曆新年開始，工會理事同兼職助理會用實體問卷、Whatsapp群組同埋電話訪問同會員溝通。之後喺3月中至尾就會同商會談判。」阿Man說道。工會近幾年也商會提出「可加可減」機制，主要是以來年工程量、甲類消費物價指數等變項構成的公式作為薪金調整幅度的參考，並已獲商會接納：「工會主動提出工資『可減』好似好奇怪。但其實我哋係唔想再出現1997至2003年『冰河期』無止境減人工嘅情況，可以有個機制決定減幾多。」</p>
                 <br>
                 <p>除了加薪，工會還成功為工友爭取酷熱天氣的額外休息時間。紮鐵工友在戶外工作，炎夏時長期暴曬，極易中暑。因此，工會自2008年起展開相關工作，例如與商會談判及做研究，希望爭取早上休息時間。最終在2013年與工會達成協議，於每年6月至9月增設早上小休時段，工友可在每日早上10時正至10時15分休息，並於2014年將休息時段增至15分鐘。根據研究顯示，早上9時至11時為建造業發生最多中暑個案的時段，而在上午休息15分鐘能夠讓工友的體力回復近8成。[註1][註2] </p>
@@ -975,6 +1016,9 @@
                 <p><small><a href="https://goo.gl/pSydbMl">[2] 見許悅、陳炳泉，〈香港建造業工作者中暑情況調查研究〉，2011年</a></small></p>
                 <p><small><a href="https://goo.gl/eCvgkD">[3] 見晴報〈建造業缺逾萬人　老化問題嚴重　工人年齡平均50歲　推升勞工成本〉</a></small></p>
                 <p><small><a href="http://www.info.gov.hk/gia/general/201703/22/P2017032200456.htm">[4] 見政府新聞公報〈立法會一題：建造業人力資源〉</a></small></p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -982,14 +1026,17 @@
     <div class="modal fade modal7" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">熱鬧過後的這一個十年</span>——<span style="font-style:oblique;">劉庚豪（河馬）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="homa_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：紮鐵散工<br>十年後身份：紮鐵散工</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1552" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <h4><span style="font-weight:bold;">留得青山在</span></h4>
                 <p>【惟工新聞】1951年出生的河馬，已經超出普通打工仔的退休年紀。行年66歲還要頻頻撲撲奔走各個地盤搵工開，老驥未必志在千里，但肯定為求開飯。他笑言年輕時毫無危機感，疏於儲蓄，現在也沒辦法。</p>
                 <br>
@@ -1006,6 +1053,9 @@
                 <p>這不代表河馬只通一藝。「1982年，港大搞咗個書法比賽，工友叫我去參加啦。結果有一晚收到電話叫我去攞獎，得咗亞軍。」懂書法不夠稀奇？刻印章，雕木頭製成毛筆盒，他統統親自動手。大型毛筆售價可達數千元，河馬去旺角買了一束禾稈草，用水浸軟，再將末端盅至軟身以便吸墨，拿一根魚絲束在筆桿上，就是他實惠相宜的特製大毛筆。以之手書的一幅七呎長「上善若水」大字，還被送到內地的美術館展覽，絕不失禮。</p>
                 <br>
                 <p>「啲師奶同我講，唔好嘥咗佢，教人啦！」河馬說，他的書法賺不到錢，也沒有門路開班授徒。找不到工開的日子，除了到海灘游泳活動筋骨，還有寫字抒懷。打開手機裡得意之作的照片，閃過一幅「留得青山在，哪怕無柴燒」。在人生的下半場，能否在地盤之外找得到新的伯樂？且拭目以待。</p>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
@@ -1013,14 +1063,17 @@
     <div class="modal fade modal8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h1><span style="font-weight:bold;">熱鬧過後的這一個十年</span>——<span style="font-style:oblique;">陳火娣（娣姐）</h1>
                 <div class="row">
-                    <div class="col-md-7 col-md-12"><img src="fotei_01.jpg" class="img-responsive"></div> 
+                    <div class="col-md-7 col-md-12"><img src="fotei_01.jpg" class="img-responsive"></div>
                 </div>
                 <p><small>工潮期間身份：家庭主婦<br>十年後身份：紮鐵長散工、香港首位女紮鐵工</small></p>
                 <p><a target="_blank" class="btn btn-info" href="https://wknews.org/node/1554" role="button">閱讀完整文章</a></p>
                 <br>
-                
+
                 <p>【惟工新聞】2007年前的紮鐵工潮，罷工行列裡不時傳出「紮鐵佬係好漢」的口號，在那個時空，「紮鐵工人 = 紮鐵佬」的全男班定律依然成立。若說工潮十年後有甚麼改變，不得不提就是娣姐（陳火娣）率先打破這條定律，成為香港首個女性紮鐵工人。看著十指點綴著水晶甲的模樣，旁人或許只當她是個愛美的師奶，未必想到她同時也是手持大工牌、身負四年實戰經驗的師傅，從長沙灣地盤收工後風塵僕僕趕來接受訪問。全男班定律是打破了，娣姐指女性入行不再苦無門路，但近年長期留在行內的還是不多：「所謂生存，就係捱落去。」</p>
                 <br>
                 <p>畢竟，紮鐵本來就是艱難的工作。</p>
@@ -1058,54 +1111,71 @@
                 <br>
                 <p>做紮鐵辛苦，一邊做紮鐵一邊搞工會就更辛苦。同是在地盤打工，娣姐說做紮鐵跟她以前做雜工的辛苦根本不是同一個層次。「有時啲雜工阿姐會同我講，『你就好啦，人工高我三倍。但諗諗下我都係唔羨幕你，你做一日，捱到等於我做一個禮拜！』」想到在紮鐵行內的日子，她說：「所謂生存，就係捱落去。」</p>
                 <p>開工也好，罷工也好，罷完工這十年再開工也好，地盤內外，總得有努力的人付出堅持。</p>
-
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+                </div>
             </div>
         </div>
     </div>
-    
-    
+
+
     <div class="modal fade modal_tech_intro" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">三行</span></h2>
                 <p>所謂「三行」，即紮鐵、釘板、落石屎三個工種，為現代一般建築之基本。上述次序基本上不可調亂：先把鋼筋紮成基本骨架，再在外面釘上木板製成模具，然後將混凝土倒進模具定型。可以說，紮鐵常是這個建築工序的第一步。</p>
                 <p>日薪2,370元的紮鐵師傅，待遇看上去令尋常打工仔又羨又妒，吃這口飯的艱難卻不定為外人道。身處地盤險地，勞損、中暑、燙傷、骨折屢見不鮮，高空工作墮下或被吊機重物砸中而死亡也不稀奇。更重要的是，紮鐵是重動力勞動之餘也是一門專業工藝，要掌握大量技術與知識，殊不簡單。惟工新聞深入紮鐵工人培訓場地，為大家揭開這門工藝最表層的面紗。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">手鉤</span></h2>
                 <p>紮鐵手鉤，又稱紮鐵鉤仔或鉤仔，每位紮鐵工人開工必備的隨身工具。使用時圓環部份握在掌心，用鉤尖將鐵線打結綁穩鋼筋。</p>
                 <p>由於本身全是金屬所製，地盤又日曬雨淋，擱在一旁經陽光曝曬十多分鐘，再觸碰已經十分燙手。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">手套</span></h2>
                 <p>備用的安全手套。如前述，地盤日曬雨淋，在猛烈太陽照射下的鋼筋溫度極高，有工友表示曾把溫度計貼近鋼筋量度表面溫度，結果溫度計立時玻璃爆裂。為免在工作時燙傷，紮鐵工人開工時會戴上安全手套，搬運鋼筋（又稱「抬鐵」）時更須在肩膊墊上毛巾隔熱。當然手套也有助減低擦傷和刺傷的風險。</p>
                 <p>因此，有說若要在地盤門口認出某人是否紮鐵工人，看他雙手是否特別白皙就是線索之一。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">紮樓面</span></h2>
                 <p>師傅示範「紮樓面」，是行內常見工序。地面的木板是事前釘好用來倒模固定混凝土，以形成地板雛形。工人就站或蹲在它上面紮鐵，製作柱和牆的骨架。有資深師傅表示，製模的木板不能再用，為節省成本，近年有地盤會用鐵板製模，而且會在上面搽油方便石屎凝固後讓鐵板與之分離，然後循環再用。但又鐵板又油，被烈日曬得火紅之後，他打趣說在上面紮鐵熱得像人肉鐵板燒。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">入column</span></h2>
                 <p>牆身和柱的鋼筋骨架接合位。「條鐵入條column（柱）幾多，要跟足圖則點寫，每次都度好幾長，唔係隨便隊。」師傅解釋，懂看建築圖則在行內很重要。鋼筋上遺下斑斑駁駁的白色粉筆痕跡，就是嵌入前為量度長度而畫下的記號。</p>
                 <p>圖中右面的支柱骨架，其中一條直豎的鋼筋被拗成微妙的弧度，叫「之字位」。那也不是隨便拗的，必須準確對應連接著的下面那條鋼筋的位置，否則支柱形狀或負重能力就會失準。</p>
@@ -1113,39 +1183,51 @@
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">絡仔</span></h2>
                 <p>紮鐵課程導師黃惠民（阿Man）手中的方框，行內通稱「絡仔」，有說是英文lock的諧音。絡仔也是由鋼筋拗曲而成，用以將其他鋼筋鎖定位置，故曰lock。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">屈鐵</span></h2>
                 <p>要將鋼筋屈曲成絡仔，現今地盤已經使用機器，省下工人不少力氣，一踩腳踏就會自動將鐵枝拗彎。但阿Man表示使用「絡仔機」也有相當危險：「你見到部機前面嗰度噴咗紅油，係危險區，手唔可以擺嗰度。有工友試過開機嗰陣幾隻手指一齊斷咗。」</p>
                 <p>能否學懂使用機器屈鐵也得看機緣。有工人表示入行數年都沒有師傅教導他，阿Man自謂當年入行幾個月就「埋到機頭」，只是自己好彩。</p>
             </div>
         </div>
     </div>
-    
+
     <div class="modal fade modal_tech8" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">粗幼</span></h2>
                 <p>圖中由左至右為絡仔、「臘腸」（一款更窄身的絡仔，因形狀貌似一孖臘腸而命名）和未拗的鋼筋。當日室內紮樓面訓練用的鋼筋都屬於比較幼的種類，工人指直徑約四分到六分。</p>
                 <p>但實際在地盤做其他工作時的鋼筋可以重得多，Y40（直徑40毫米）花鐵是常用規格之一，一條這樣的鋼筋，重量約為118公斤，接近兩個普通成年人體重。</p>
             </div>
         </div>
     </div>
-      
+
     <div class="modal fade modal_tech9" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
                 <h2><span style="font-weight:bold;">磚仔</span></h2>
                 <p>圖中為「磚仔」，一般由塑膠製造，用以在鋼筋和模板之間製造一定的石屎厚度。工友打了個應節的譬喻：「就好似你整月餅咁，啲餡（鋼筋）冇理由突出去餅皮（石屎）外面家嘛！」因為有磚仔頂住，為鋼筋骨架和模板之間預留了空間，落石屎時就可以確保外層有足夠厚度的混凝土包覆住骨架。</p>
             </div>
