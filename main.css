@@ -134,7 +134,7 @@ li.navbar{
 
 
 .cover{
-  background-image: url(COVER_BACKGROUND.jpg);
+  background-image: url("Images/COVER_BACKGROUND.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,26 +151,27 @@ li.navbar{
 }
 
 #intro1{
-  background-image: url("Intro1_background_2.jpg");
+  background-image: url("Images/Intro1_background_2.jpg");
   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 #intro2{
-  background-image: url("Intro2_background_4.jpg");
+  background-image: url("Images/Intro2_background_4.jpg");
   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 }
 
 #intro3{
-  background-image: url("Intro3_background_2.jpg");
+  background-image: url("Images/Intro3_background_2.jpg");
   background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
 
 }
+
 
 .title{
   position: absolute;
@@ -182,6 +183,7 @@ li.navbar{
   border-style: solid;
   padding: 5px 15px;
 }
+
 
 
 #intro1 .intro-title{
@@ -213,6 +215,7 @@ li.navbar{
 
 ul.info{
   list-style: none;
+  margin-top: 20%;
 }
 
 @media screen and (max-width:990px){
@@ -229,7 +232,7 @@ ul.info{
   }
 
   p.card-text{
-    font-size: 1vh;
+    font-size: 2vh;
   }
 
 }
@@ -251,13 +254,13 @@ ul.info{
 }
 
 .intro-title h1{
-  font-size: 5rem;
+  font-size: 5vh;
   text-align: left;
   font-weight: 600
 }
 
 .intro-title p{
-  font-size: 1.6rem;
+  font-size: 2vh;
 }
 
 .infographics{
