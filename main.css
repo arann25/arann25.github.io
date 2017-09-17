@@ -207,7 +207,13 @@ li.navbar{
 }
 
 
+h4.infographics-m{
+  font-size: 2vh;
+}
 
+p.infographics-m{
+  font-size: 1vh;
+}
 
 #intro-infographics{
   top:50px;
@@ -215,7 +221,7 @@ li.navbar{
 
 ul.info{
   list-style: none;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 @media screen and (max-width:990px){
@@ -237,11 +243,22 @@ ul.info{
 
 }
 
-@media screen and (max-width: 370px){
-  .card-img-top{
+@media screen and (max-width: 375px){
+  .info{
     visibility: hidden;
     display: none;
   }
+}
+
+@media screen and (min-width:376px){
+  .info-m{
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.info-m{
+  margin-top: 50px;
 }
 
 .intro-title{
