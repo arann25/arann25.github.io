@@ -356,11 +356,11 @@ h2.cover-title{
     font-weight: 500;
   }
 
-  #in1 .intro-title{right:0%;}
+  #in1 .intro-title{left:0%; width: 15%; padding-left: 5%;}
 
-  #in2 .intro-title{right:0%;}
+  #in2 .intro-title{left:0%; width: 15%; padding-left: 5%;}
 
-  #in3 .intro-title{right:0%;}
+  #in3 .intro-title{left:0%; width: 15%; padding-left: 5%;}
 }
 
 
