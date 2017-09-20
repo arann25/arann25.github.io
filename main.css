@@ -583,6 +583,36 @@ button{
   display:inline-block;
 }
 
+.arrowUp, .arrowDown{
+  position:fixed;
+  z-index:99;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  margin-left: -38px;
+  right: 0%;
+
+}
+
+.arrowDown{
+    bottom: 20px;
+    border-width: 18px 15px 0 18px;
+    border-color: #928b8b transparent transparent transparent;
+}
+
+.arrowUp{
+    top: 110px;
+    border-width: 0 18px 15px 18px;
+    border-color: transparent transparent #928b8b transparent;
+}
+
+@media screen and (min-width: 376px){
+  .arrowUp, .arrowDown{
+    visibility: hidden;
+    display: none;
+  }
+}
 
 /*
 .carousel-inner{
